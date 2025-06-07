@@ -468,6 +468,7 @@ body {
     color: #16610E;
     font-weight: bold;
     font-size: 16px;
+
 }
 
 /* Мобільна адаптація */
@@ -513,7 +514,7 @@ body {
 
 /* Блок "Чому саме з таймером" */
 .course-timer-block {
-    background: linear-gradient(135deg, #E8F5E8, #C4DAD2);
+    background: #e3efea;
     padding: 20px;
     border-radius: 10px;
     margin: 20px 0;
@@ -570,7 +571,7 @@ body {
     left: 0;
     right: 0;
     height: 4px;
-    background: rgb(22, 66, 60);
+    background: rgb(128, 179, 172);
 }
 
 .bonus-card:hover {
@@ -584,6 +585,7 @@ body {
     justify-content: center;
     gap: 15px;
     margin-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .bonus-icon {
@@ -1010,34 +1012,5 @@ html {
 .skip-link:focus {
     top: 6px;
 }
-
-@media (max-width: 768px) {
-    nav ul {
-      display: none;
-      flex-direction: column;
-      gap: 10px;
-      
-      padding: 20px;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-  
-    nav.show ul {
-      display: flex;
-    }
-  
-    .menu-toggle {
-      display: block;
-      background: none;
-      border: none;
-      font-size: 24px;
-      color: white;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-  }
+ 
   
